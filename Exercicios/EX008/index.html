@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formataçao de texto</title>
+    <!-- exemplo do marcador
+    <style>
+       mark {
+           backgroundo-color: blue;
+       }
+    </style>-->
+</head>
+<body>
+    <!-- semantica significa quando algo tem sentido -->
+    <!-- se a tag possui forma a tag é CSS caso a tag tenha sentido é HTML-->
+    <h1>Principais Formataçao</h1>
+    <h2>negrito</h2>
+    <!-- a tag <b> ficaram obsoleta com o tempo sempre dar preferencia ao uso da tag <strong> tag semantica-->
+    <p>Nessa pagina temos um <b>termo em negrito</b> usando a tag &lt;b&gt; <br> (nao semantica) </p>
+    <p>nesta parte tenho um <strong>termo em destaque</strong> usando a tag &lt;stong&gt; <br> (semantica).
+    </p>
+    <h2>Italico/ Enfase</h2>
+    <!-- a tag <i> tambem ficara obsoleta com o tempo entao sempre de preferencia a tag <em> tag semantica-->
+    <p>nesta frase temos um <i>termo em italico</i> usando a tag &lt;i&gt; <br> (nao semantica)</p>
+    <p>nesta frase temos um <em>termo enfase</em> usando a tag &lt;em&gt; <br> (semantica).</p>
+    <p>podemos tambem criar um <mark>texto marcado</mark> usando a tag &lt;mark&gt;.</p>
+    <!--a mudança de cor do marcador e feito atravez de codigo css ja que cor é forma e nao significado-->
+    <!-- para mudar a manter a cor de varias marcaçoes iguais deve ser feito  um codigo abaixo do title-->
+    <p>e possivel mudar a cor do <mark style="background-color: lime;">marcador de texto</mark></p>
+    <p>para <mark style="background-color: rgb(252, 214, 0);">mudar a cor</mark> de mais de texto deve ser feito um de cada vez casa tenha <mark style="background-color: rgb(247, 57, 67);">cores diferentes</mark></p>
+    <h2>Texto grande e pequeno</h2>
+   
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small></p>
+     <!--a tag <small> ainda continua porque existe sentido no uso do html, como por exemplo letras pequenas no fundo do site ou em contratos-->
+    <!--a tag <big> perdeu se sentido no uso do html pois existe outras maneiras de aumentar o tamanho da letra e nao tem um uso muito expressivo-->
+        <h2>Texto deletado</h2>
+        <p>Podemos marcar um <del>texto como excluido</del> atravez da tag &lt;del&gt; para indicar que ele podeser lido mais nao considerado</p>
+        <h2>Texto adicionado</h2>
+        <p>podemos marcar um <ins>texto como inserido</ins> atravez da tag &lt;ins&gt; para dar uma ênfase e indicar que ele foi adionado depois.</p>
+        <p>tambem existe a tag &lt;u&gt; que tambem deixa o <u>texto sublinhado</u>  mas é uma tag não semantica</p>
+        <h2>texto sobrescrito</h2>
+        <p>para inserir coisas do tipo x<sup>20</sup>+3 com a tag &lt;sup&gt;.</p>
+        <h2>texto subscrito</h2>
+        <p>para inserir coisas do tipo H<sub>2</sub>O com a tag &lt;sub&gt;.</p>
+</html>

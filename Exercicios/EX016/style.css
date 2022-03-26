@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+*{
+    font-family: sans-serif;
+    
+}
+
+body{
+    background-image: linear-gradient(to right, #EFF1ED, #5CAB7D);
+}
+
+main{
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 10px 10px 10px #002500;/* acrecenta sobra na box do padding*/
+    border-radius: 6px;/* border radius serve para arredondar a borda*/
+}
+
+h1{
+    background-color: #002500;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 1px 1px 0px darkgreen;/*text-shadow e para sombrear o texto so esta ai como exemplo*/
+}
+h2{
+    
+    color: #002500;
+
+}
+
+p {
+    text-align: justify;
+}
