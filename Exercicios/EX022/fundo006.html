@@ -8,16 +8,24 @@
     <style>
         
         body{
-            height: 100vh;
-            background-size: cover;
+            height: 100vh;/*vh= porcentagem do viewport*/
+           /* 
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
-            background-repeat: no-repeat;
             background-position: center top;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;*/
             
+            /*Shorthand  do background
+            color>image>position>repeat>attachment;
+            background-sizer:cover; fica de fora da shorthand.
+            */ 
+            background: black url(imagens/wallpaper002.jpg) center top no-repeat fixed; 
+            background-size: cover;          
         }
         main{
-            width: 400px;
+            max-width: 400px;
             margin: auto;
             padding: 10px;
             text-align: justify;
