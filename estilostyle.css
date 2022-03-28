@@ -47,12 +47,15 @@ a:hover{
     
 }
 section{
-    font-size: 3vw;/*vw= tamanho com base na porcentagem da largura da pagina (Viewport Widht)*/
+    font-size: 4vw;/*vw= tamanho com base na porcentagem da largura da pagina (Viewport Widht)*/
     font-family: var(--fonte2);
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+}
+section>p{
+    padding-bottom: 2em;
 }
 
 section.normal{
@@ -62,12 +65,26 @@ section.normal{
 section.imagem{
     background-color: rgb(73, 73, 73);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.452);
+    background-size: cover;
+    background-attachment: fixed;
 
 }
+section#img01{
+    background-image: url(Exercicios/EX023/desafio12/imagens/background001.jpg);
+    background-position: center center;
+}
+section#img02{
+    background-image: url(Exercicios/EX023/desafio12/imagens/background002.jpg);
+    background-position: center left;
+    
+}
 section.imagem>p{
+    text-shadow: 2px 2px 0px black;
     padding: 15px;
     display: inline-block;
-    background-color: rgb(51, 51, 51);
+    background-color: rgba(51, 51, 51, 0.548);
+    background-size: cover;
 }
 
 footer {
