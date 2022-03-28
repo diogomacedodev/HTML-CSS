@@ -6,7 +6,10 @@
 
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url(pacote-projeto-d010/fontes/BebasNeue-Regular.ttf) format('truetype');
+}
 
 
 :root{
@@ -18,7 +21,8 @@
 
     --fonte-padrao: arial, verdana, helvetica, sans-serif;
     --font-android: 'idroid';
-    --font-destaque: 'Roboto', sans-serif;
+    --font-destaque: 'Bebas Neue';
+
 
 }
 
@@ -32,13 +36,14 @@ body{
 }
 
 header {
+    
     background-image: linear-gradient(to bottom,var(--cor03),var(--cor04)  );
     padding: 10px;
     font-family: var(--font-destaque);
     text-align: center;
     min-height: 150px; 
 }
-header>h1{
+header>h1{    
     font-family: var(--font-destaque);
     font-weight: 3em;
     color: white;
